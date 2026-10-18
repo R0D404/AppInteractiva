@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Tareas escolares</string>
+    <string name="titulo_lista_tareas">Tareas escolares</string>
+    <string name="subtitulo_tareas_pendientes">Tienes %1$d tareas pendientes</string>
+    <string name="subtitulo_una_tarea_pendiente">Tienes 1 tarea pendiente</string>
+    <string name="subtitulo_sin_tareas_pendientes">No tienes tareas pendientes</string>
+
+    <!-- Tarjeta de Progreso -->
+    <string name="titulo_progreso">Progreso</string>
+    <string name="progreso_tareas_contador">%1$d de %2$d completadas</string>
+    <string name="progreso_porcentaje">%1$d%% completado</string>
+
+    <!-- Filtros de Estado -->
+    <string name="filtro_todas">Todas</string>
+    <string name="filtro_pendientes">Pendientes</string>
+    <string name="filtro_completadas">Completadas</string>
+
+    <!-- Prioridades -->
+    <string name="etiqueta_prioridad">Prioridad</string>
+    <string name="prioridad_alta">Alta</string>
+    <string name="prioridad_media">Media</string>
+    <string name="prioridad_baja">Baja</string>
+
+    <!-- Tarjeta de Tarea -->
+    <string name="fecha_vence">Vence %1$s</string>
+    <string name="cd_eliminar_tarea">Eliminar tarea</string>
+    <string name="cd_marcar_tarea">Marcar tarea como completada o pendiente</string>
+
+    <!-- Estado Vacío -->
+    <string name="estado_vacio_titulo">No hay tareas para mostrar</string>
+    <string name="estado_vacio_subtitulo">Agrega una nueva tarea con el botón + o cambia los filtros seleccionados.</string>
+    <string name="cd_icono_vacio">Sin tareas</string>
+
+    <!-- Pantalla Nueva Tarea -->
+    <string name="titulo_nueva_tarea">Nueva tarea</string>
+    <string name="cd_volver">Regresar a la lista de tareas</string>
+    <string name="cd_agregar_tarea">Agregar nueva tarea</string>
+
+    <!-- Formulario -->
+    <string name="campo_titulo">Título</string>
+    <string name="placeholder_titulo">Ej. Proyecto final</string>
+    <string name="campo_materia">Materia</string>
+    <string name="placeholder_materia">Ej. Bases de datos</string>
+    <string name="campo_fecha_limite">Fecha límite</string>
+    <string name="placeholder_fecha_limite">dd/MM/yyyy</string>
+    <string name="boton_guardar_tarea">Guardar tarea</string>
+    <string name="boton_cancelar">Cancelar</string>
+
+    <!-- Mensajes de Error de Validación -->
+    <string name="error_materia_obligatoria">La materia es obligatoria</string>
+    <string name="error_titulo_obligatorio">El título es obligatorio</string>
+</resources>
