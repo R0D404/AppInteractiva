@@ -48,5 +48,9 @@
 
     <!-- Mensajes de Error de Validación -->
     <string name="error_materia_obligatoria">La materia es obligatoria</string>
+    <string name="error_materia_demasiado_larga">La materia no puede superar los 40 caracteres</string>
     <string name="error_titulo_obligatorio">El título es obligatorio</string>
+    <string name="error_titulo_demasiado_largo">El título no puede superar los 60 caracteres</string>
+    <string name="error_fecha_invalida">Ingresa una fecha válida con formato dd/MM/yyyy</string>
+    <string name="error_fecha_anterior_a_hoy">La fecha límite no puede ser anterior a hoy</string>
 </resources>

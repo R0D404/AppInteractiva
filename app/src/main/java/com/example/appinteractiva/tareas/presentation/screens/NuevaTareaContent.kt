@@ -226,7 +226,17 @@ fun NuevaTareaContent(
                     },
                     singleLine = true,
                     shape = RoundedCornerShape(12.dp),
-                    colors = textFieldColors
+                    colors = textFieldColors,
+                    isError = uiState.errorFecha != null,
+                    supportingText = uiState.errorFecha?.let { errorRes ->
+                        {
+                            Text(
+                                text = stringResource(errorRes),
+                                color = MaterialTheme.colorScheme.error,
+                                style = MaterialTheme.typography.bodySmall
+                            )
+                        }
+                    }
                 )
 
                 Spacer(modifier = Modifier.height(10.dp))
